@@ -29,7 +29,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -70,15 +70,15 @@
     }
   }, true)
 
-  /**
-   * Preloader
-   */
-  let preloader = select('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove()
-    });
-  }
+  // /**
+  //  * Preloader
+  //  */
+  // let preloader = select('#preloader');
+  // if (preloader) {
+  //   window.addEventListener('load', () => {
+  //     preloader.remove()
+  //   });
+  // }
 
   /**
    * Animation on scroll
@@ -269,13 +269,13 @@ let closeicon =document.querySelector('.bi-x')
 /***********function Show chat*****************/
 ShowChat=()=>{
   if (chatbox.style.display === "none") {
-    
+
     chatbox.style.display = "block";
-    
+
   } else {
     chatbox.style.display = "none";
   }
- 
+
 }
 
 
